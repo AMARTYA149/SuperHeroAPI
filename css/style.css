@@ -157,3 +157,42 @@ ul {
 #toast-success {
     background: #8bc34a;
 }
+
+.super-hero-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 434px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background: #fff;
+}
+
+.super-hero-detail img{
+    height: 300px;
+}
+
+.super-hero-detail h1,
+.super-hero-detail h3 {
+    margin: 0;
+}
+
+.super-hero-detail .power-stats div {
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.no-results {
+    background: #f44336;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
